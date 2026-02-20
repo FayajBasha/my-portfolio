@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Fayaj Basha</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">Fayaj Basha</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="projects-page">
+
+<h2 class="projects-title">My Projects</h2>
+
+<div class="projects-container">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card" onclick="openModal('portfolio')">
+        <img src="images/portfolio.png">
+        <h3>My Portfolio Website</h3>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card" onclick="openModal('court')">
+        <img src="images/court.jpg">
+        <h3>Court Case Management Portal</h3>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card" onclick="openModal('logistics')">
+        <img src="images/digital.jpg">
+        <h3>Reverse Logistics System</h3>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- MODAL POPUP -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDesc"></p>
+
+        <div class="modal-links">
+            <a id="githubLink" target="https://github.com/FayajBasha/Development-of-e-Portal-for-facilitating-Case-Management-Hearing-of-various-types-of-cases">GitHub Link</a>
+            <a id="demoLink" target="_blank">Live Demo</a>
+        </div>
+
+    </div>
+</div>
+
+<script src="projects.js"></script>
+
+</body>
+</html>
