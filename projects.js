@@ -15,7 +15,7 @@ title.innerText = "Jewellery ERP Management System";
 desc.innerText =
 "A full-stack web-based ERP system developed for managing jewellery shop operations such as billing, inventory management, customer records, and sales tracking. Built using Python, FastAPI, React, and MySQL.";
 
-github.href = "#";
+github.href = "https://github.com/FayajBasha/Jwelly-ERP.git";
 demo.href = "#";
 
 }
@@ -27,7 +27,7 @@ title.innerText = "My Portfolio Website";
 desc.innerText =
 "A personal developer portfolio built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information with responsive design and animations.";
 
-github.href = "https://github.com/YOUR_GITHUB_USERNAME/portfolio";
+github.href = "https://github.com/FayajBasha/my-portfolio.git";
 demo.href = "#";
 
 }
