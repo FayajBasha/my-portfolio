@@ -1,5 +1,65 @@
 /* HEADER NAVBAR FIX */
 
+/* ===== HEADER NAVBAR ===== */
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 10%;
+    background:#081b29;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+
+/* logo */
+.logo{
+    font-size:26px;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:700;
+}
+
+/* menu right */
+.navbar{
+    display:flex;
+    gap:35px;
+}
+
+/* menu links */
+.navbar a{
+    color:#ededed;
+    font-size:17px;
+    text-decoration:none;
+    font-weight:500;
+    position:relative;
+    transition:0.3s;
+}
+
+/* underline hover animation */
+.navbar a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:#00e5ff;
+    transition:0.3s;
+}
+
+.navbar a:hover::after,
+.navbar a.active::after{
+    width:100%;
+}
+
+.navbar a:hover{
+    color:#00e5ff;
+}
+
 .header{
     position:fixed;
     top:0;
